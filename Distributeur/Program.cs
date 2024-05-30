@@ -21,7 +21,7 @@ while (stockBoissons[0] > 0 || stockBoissons[1] > 0 || stockBoissons[2] > 0)
                     return;
                 }
                 Console.WriteLine("Plus de stock de Coca");
-                break;
+                return;
             case 1:
                 if (stockBoissons[1] > 0)
                 {
@@ -30,7 +30,7 @@ while (stockBoissons[0] > 0 || stockBoissons[1] > 0 || stockBoissons[2] > 0)
                     return;
                 }
                 Console.WriteLine("Plus de stock de Fanta");
-                break;
+                return;
             case 2:
                 if (stockBoissons[2] > 0)
                 {
@@ -39,7 +39,7 @@ while (stockBoissons[0] > 0 || stockBoissons[1] > 0 || stockBoissons[2] > 0)
                     return;
                 }
                 Console.WriteLine("Plus de stock de Spirte");
-                break;
+                return;
         }
     }
 } 
